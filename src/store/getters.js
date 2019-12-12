@@ -8,12 +8,6 @@ const getters = {
   user: state => state.user.user,
   loadMenus: state => state.user.loadMenus,
   permission_routers: state => state.permission.routers,
-  addRouters: state => state.permission.addRouters,
-  socketApi: state => state.api.socketApi,
-  imagesUploadApi: state => state.api.imagesUploadApi,
-  updateAvatarApi: state => state.api.updateAvatarApi,
-  qiNiuUploadApi: state => state.api.qiNiuUploadApi,
-  sqlApi: state => state.api.sqlApi,
-  swaggerApi: state => state.api.swaggerApi
+  addRouters: state => state.permission.addRouters
 }
 export default getters

@@ -87,14 +87,11 @@
         </el-tabs>
       </el-col>
     </el-row>
-    <show v-if="showVisible" ref="show"/>
   </div>
 </template>
 
 <script>
-import Show from './fixBug/debugdetailed-show'
 export default {
-  components: { Show },
   data() {
     return {
       dataloading: false,

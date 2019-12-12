@@ -58,7 +58,7 @@ export const constantRouterMap = [
         meta: { title: '首页', icon: 'index', noCache: true, affix: true }
       }
     ]
-  },
+  }/*,
   {
     path: '/user',
     component: Layout,
@@ -72,7 +72,7 @@ export const constantRouterMap = [
         meta: { title: '个人中心', icon: 'user' }
       }
     ]
-  }
+  }*/
   // { path: '*', redirect: '/404', hidden: true }
 ]
 
